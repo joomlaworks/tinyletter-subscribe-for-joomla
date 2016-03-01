@@ -11,15 +11,18 @@ If you are looking for a simple way to add a newsletter to your Joomla site with
 4. Compose your TinyLetter: Log into your TinyLetter.com account. There aren't any templates to bother with. One click, and you’re off.
 5. Reply to your readers: See who reads your newsletters, and continue the discussion with those who respond.
 
+### MVC TEMPLATING
+The module already includes some generic CSS styling, which makes it truly 'plug and play' for your Joomla website. If you want more control, you can simply override both the generated HTML and CSS, using MVC template overrides within your Joomla template. Hover over each parameter in the module settings for additional info.
+
 ### REQUIREMENTS
 - Joomla 2.5 or 3.x
 - A free TinyLetter account
 
-### MVC TEMPLATING
-The module already includes some generic CSS styling, which makes it truly 'plug and play' for your Joomla website. If you want more control, you can simply override both the generated HTML and CSS, using MVC template overrides within your Joomla template. Hover over each parameter in the module settings for additional info.
-
 ### DEMO
 See the module in action in the main JoomlaWorks website as well as our demo site: http://demo.joomlaworks.net/ (module located in the right column of the frontpage)
+
+### DOWNLOAD
+Use the "Download ZIP" button to get the most up to date build or see the "Releases" section at: https://github.com/joomlaworks/tinyletter-subscribe-for-joomla/releases
 
 ### ABOUT
 TinyLetter Subscribe is a Joomla 2.5 & 3.x compatible module developed by JoomlaWorks, released under the GNU General Public License.
