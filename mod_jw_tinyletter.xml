@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" client="site" version="2.5" method="upgrade">
+	<name>TinyLetter Subscribe for Joomla! (by JoomlaWorks)</name>
+	<author>JoomlaWorks</author>
+	<authorEmail>please-use-the-contact-form@joomlaworks.net</authorEmail>
+	<authorUrl>www.joomlaworks.net</authorUrl>
+	<copyright>Copyright (c) 2006 - 2013 JoomlaWorks Ltd. All rights reserved.</copyright>
+	<creationDate>January 9th, 2013</creationDate>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<version>2.0</version>
+	<description>MOD_JW_TINYLETTER_XM_DESC</description>
+	<config>
+		<fields name="params">
+			<fieldset name="basic" addfieldpath="/modules/mod_jw_tinyletter/includes/elements">
+				<field name="moduleclass_sfx" type="text" default="" label="MOD_JW_TINYLETTER_MODULE_CLASS_SUFFIX" description="MOD_JW_TINYLETTER_MODULE_CLASS_SUFFIX_DESC" />
+				<field name="template" type="template" default="default" label="MOD_JW_TINYLETTER_CHOOSE_LAYOUT_TEMPLATE" description="MOD_JW_TINYLETTER_CHOOSE_LAYOUT_TEMPLATE_DESC" />
+				<field name="" type="header" default="TinyLetter Options" label="" description="" />
+				<field name="tlUsername" type="text" default="" label="MOD_JW_TINYLETTER_USERNAME" description="MOD_JW_TINYLETTER_USERNAME_DESC" />
+				<field name="tlPopupWidth" type="text" default="800" label="MOD_JW_TINYLETTER_POPUP_WIDTH" description="MOD_JW_TINYLETTER_POPUP_WIDTH_DESC" />
+				<field name="tlPopupHeight" type="text" default="600" label="MOD_JW_TINYLETTER_POPUP_HEIGHT" description="MOD_JW_TINYLETTER_POPUP_HEIGHT_DESC" />
+				<field name="tlShowPretext" type="radio" default="1" label="MOD_JW_TINYLETTER_SHOW_PRETEXT" description="MOD_JW_TINYLETTER_SHOW_PRETEXT_DESC">
+					<option value="0">MOD_JW_TINYLETTER_HIDE</option>
+					<option value="1">MOD_JW_TINYLETTER_SHOW</option>
+				</field>
+				<field name="tlPretext" type="textarea" default="" cols="30" rows="6" label="MOD_JW_TINYLETTER_PRETEXT" description="MOD_JW_TINYLETTER_PRETEXT_DESC" />
+				<field name="tlCredits" type="radio" default="1" label="MOD_JW_TINYLETTER_CREDITS" description="MOD_JW_TINYLETTER_CREDITS_DESC">
+					<option value="0">MOD_JW_TINYLETTER_HIDE</option>
+					<option value="1">MOD_JW_TINYLETTER_SHOW</option>
+				</field>
+			</fieldset>
+			<fieldset name="advanced">
+				<field name="cache" type="list" default="1" label="MOD_JW_TINYLETTER_CACHING" description="MOD_JW_TINYLETTER_CACHING_DESC">
+					<option value="1">MOD_JW_TINYLETTER_USE_GLOBAL</option>
+					<option value="0">MOD_JW_TINYLETTER_NO_CACHING</option>
+				</field>
+				<field name="cache_time" type="text" default="900" label="MOD_JW_TINYLETTER_CACHE_TIME" description="MOD_JW_TINYLETTER_CACHE_TIME_DESC" />
+			</fieldset>
+		</fields>
+	</config>
+	<files>
+		<filename module="mod_jw_tinyletter">mod_jw_tinyletter.php</filename>
+		<folder>includes</folder>
+		<folder>tmpl</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.mod_jw_tinyletter.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.mod_jw_tinyletter.sys.ini</language>
+	</languages>
+</extension>
