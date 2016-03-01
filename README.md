@@ -1,5 +1,5 @@
 # TinyLetter Subscribe for Joomla
-***
+
 [TinyLetter](https://www.tinyletter.com/) is an elegant, simple and free newsletter service brought to you by the folks behind MailChimp. You can sign up for a free account and start sending newsletters in just a couple of minutes.
 
 If you are looking for a simple way to add a newsletter to your Joomla site without the bloat and complexity that usually comes with most native Joomla newsletter extensions, then TinyLetter is just the right service to use. By using the TinyLetter Subscribe module for Joomla, you can quickly integrate the TinyLetter service to your Joomla site.
