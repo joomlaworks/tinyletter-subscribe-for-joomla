@@ -1,5 +1,4 @@
 # TinyLetter Subscribe for Joomla
-(v2.0 - released January 9th, 2013)
 ***
 [TinyLetter](https://www.tinyletter.com/) is an elegant, simple and free newsletter service brought to you by the folks behind MailChimp. You can sign up for a free account and start sending newsletters in just a couple of minutes.
 
@@ -24,3 +23,7 @@ See the module in action in the main JoomlaWorks website as well as our demo sit
 
 ### ABOUT
 TinyLetter Subscribe is a Joomla 2.5 & 3.x compatible module developed by JoomlaWorks, released under the GNU General Public License.
+
+### CHANGELOG
+**v2.0 released January 9th, 2013**
+- Improved Joomla 3.x compatibility
